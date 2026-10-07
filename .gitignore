@@ -1,0 +1,45 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Captured photos from the demo (raw/, annotated/, log.csv)
+photos/
+*.csv/
+
+# Model weights and exports (trained files are large; GitHub blocks files over 100 MB)
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+*_ncnn_model/
+*_openvino_model/
+*_saved_model/
+
+# Datasets and prepared training data
+*.zip
+prepared/
+_extracted/
+datasets/
+
+# Training output
+runs/
+wandb/
+
+# Video clips used for testing
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Python junk
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
