@@ -1,3 +1,4 @@
+/*.csv
 # Virtual environment
 venv/
 .venv/
@@ -5,7 +6,7 @@ env/
 
 # Captured photos from the demo (raw/, annotated/, log.csv)
 photos/
-*.csv/
+
 
 # Model weights and exports (trained files are large; GitHub blocks files over 100 MB)
 *.pt
