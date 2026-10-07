@@ -1,4 +1,5 @@
-/*.csv
+RC_Car/
+*.csv
 # Virtual environment
 venv/
 .venv/
